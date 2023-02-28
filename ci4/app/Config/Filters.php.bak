@@ -11,7 +11,10 @@ use CodeIgniter\Filters\SecureHeaders;
 
 class Filters extends BaseConfig
 {
-	
+	public $methods = [
+        'post' => ['csrf'],
+    ];
+
     /**
      * Configures aliases for Filter classes to
      * make reading things nicer and simpler.
