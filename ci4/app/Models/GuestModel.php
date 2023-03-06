@@ -4,9 +4,14 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NewsModel extends Model
+class GuestModel extends Model
 {
-    protected $table = 'news';
+    protected $table = 'jvcarpo_myguests';
 
-    protected $allowedFields = ['title', 'slug', 'body'];
+    protected $allowedFields = ['name', 'email', 'message'];
+	
+	 public function getGuest()
+    {       
+        return $this->findAll();
+    }
 }

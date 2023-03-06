@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Resources</title>
+<link rel="stylesheet" href="resources.css">
+</head>
+<body>
+<div class="container">
+		<div class="navigation">
+			<nav>
+				<ul>
+					<li><a href="home.php">Home</a></li>
+					<li><a href="Resources.html">Resources</a></li>
+					<li><a href="about.html">About</a></li>	
+				</ul>
+			</nav>
+		</div>
+		<div class="content">
+			<h1>Resources</h1>
+			<p>Here are the w3 school lessons that helped me with my website!</p>
+		</div>
+		<div class="division html"> 
+		<a href="https://www.w3schools.com/html/"><img src="images/w3schools.png" class="w3"> </a>
+		<p class="text">HTML</p>
+		</div>
+		<div class="division css"> 
+		<a href="https://www.w3schools.com/css/"><img src="images/w3schools.png" class="w3"></a>
+		<p class="text">CSS</p>
+		</div>
+		<div class="division javascript">
+		<a href="https://www.w3schools.com/js/"><img src="images/w3schools.png" class="w3"></a>
+		<p class="text">JAVASCRIPT</p>
+		</div>
+		<div class="division php">
+		<a href="https://www.w3schools.com/php/"><img src="images/w3schools.png" class="w3"></a>
+		<p class="text">PHP</p>
+		</div>
+	</div>
+		

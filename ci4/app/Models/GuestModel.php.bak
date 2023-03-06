@@ -6,7 +6,12 @@ use CodeIgniter\Model;
 
 class NewsModel extends Model
 {
-    protected $table = 'news';
+    protected $table = 'jvcarpo_myguests';
 
-    protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
+    protected $allowedFields = ['name', 'email', 'message'];
+	
+	 public function getGuest()
+    {       
+        return $this->findAll();
+    }
 }
