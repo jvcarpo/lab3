@@ -9,7 +9,7 @@
 			<nav>
 				<ul>
 					<li><a href="home.php">Home</a></li>
-					<li><a href="Resources.html">Resources</a></li>
+					<li><a href="resources.html">Resources</a></li>
 					<li><a href="about.html">About</a></li>	
 					<li><a href="guest.php">Guest</a></li>	
 				</ul>
