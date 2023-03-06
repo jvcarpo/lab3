@@ -19,7 +19,7 @@
 			<h1>Hello!</h1>
 			<p>Welcome to my website :)</p>
 		</div>
-		<img src="images/jarvis.png" class="jarvis">
+		<img src="images/jarvis.PNG" class="jarvis">
 		<div class="socials">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 				<a href="https://www.facebook.com/jarvis.carpo" class="fa fa-facebook" ></a>
